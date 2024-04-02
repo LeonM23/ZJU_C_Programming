@@ -3,8 +3,8 @@
 int main(){
 
     int digit[200], cnt = 0;
-    int num=16, denom=19;
-    // scanf("%d/%d", &num, &denom);
+    int num, denom;
+    scanf("%d/%d", &num, &denom);
 
     do{
         num *= 10;
